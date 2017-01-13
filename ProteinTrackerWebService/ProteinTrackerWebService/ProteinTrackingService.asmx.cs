@@ -9,7 +9,7 @@ namespace ProteinTrackerWebService
     [WebService(Namespace = "http://dylandykes.com")]
     [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
     [System.ComponentModel.ToolboxItem(false)]
-    public class ProtienTrackingService : WebService
+    public class ProteinTrackingService : WebService
     {
         private UserRepository repository = new UserRepository();
 
